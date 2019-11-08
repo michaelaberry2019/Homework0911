@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    justify-content: center;  
+}
+.dayPlanner {
+    width: 700px;
+}
+.row {
+    display: flex;
+    flex-grow: 1;
+    height: 40px;
+}
+.hour {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+.btn {
+}
