@@ -2,27 +2,35 @@ header {
     text-align: center;
 }
 .main {
-    text-align: center;
+    background-color: aqua;
     display: flex;
     justify-content: center;
 }
-/* .dayPlanner { */
-    width: 700px;
-    display: flex;
-    flex-grow: 1;
+.dayPlanner {
+    background-color: azure;
+    width: 900px;
 }
-/* .row { */
-    display: flex;
-    flex-grow: 1;
-    height: 40px;
-    width: 700px;
-}
-/* .hour { */
+.row{
     display: flex;
     justify-content: right;
-    flex-direction: row;
 }
+hr {
+    line-height: 40px;
+    display: flex;
+    justify-content: left;
+}
+.todo {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    line-height: 40px;
+}
+
 .btn {
+    background-color: lightsalmon;
+    width: 50px;
+    height: 40px;
     display: flex;
     justify-content: right;
+    margin-right: 0px;
 }

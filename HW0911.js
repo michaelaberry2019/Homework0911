@@ -39,5 +39,28 @@ function renderTime(){
 }
 renderTime();
     // calls func.
- 
 
+renderToDo();
+// grab from local storage
+function renderToDo() {
+    var task = localStorage.getItem(".todo");
+}
+// variables for event listener func & local storage func.
+var saveButton = document.querySelector(".btn");
+var todo = document.querySelector(".todo");
+
+// event listener on save button
+saveButton.addEventListener("click", function(event) {
+    event.preventDefault();
+
+// displaying content in placeholder??
+    function displaytask(type, task) {
+        todo.textContent = task;
+        todo.setAttribute(".todo", type)
+    }
+    // saving input to local storage
+    localStorage.setItem(".todo", type);
+
+// recognising the time change
+// colour change for time change
+// Why do my functions lower down on the page prevent my date/time function from working?
