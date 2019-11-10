@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="HW0911.css" />
 </head>
 
-<body>
+<body onload="renderTime">
     <header>
         <h1>Day Planner</h1>
         <p>blahdi blah blah</p>
+        <p id="mydate">date</p>
         <hr>
     </header>
-    <script></script>
     <section class="main">
         <ul class="dayPlanner">
             <li class="row">
@@ -64,14 +64,13 @@
                     <button class="btn">save</button>
             </li>
             
+            
         </ul>
 
     </section>
 
-
-    </div>
-
-
+    <script type="text/javascript" src="HW0911.js"></script>
+    <!-- interestingly script tag needed to be moved to the bottom to get the date/time js outcome to appear. I have learned this may be due to script running priort to HTML hitting the DOM -->
 </body>
 
 </html>
